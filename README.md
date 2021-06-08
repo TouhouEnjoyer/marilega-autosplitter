@@ -5,6 +5,9 @@ Most likely only works with v1.30, so heads up if you downloaded the game from M
 
 
 Features:
+
 -Automatically resets timer on stage select
+
 -Final mushroom split is frame perfect
+
 -Should work with both Marisa and Alice
