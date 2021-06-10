@@ -11,7 +11,7 @@ Also functions with Hard Mode as well...but since I haven't gotten to its final 
 
 Features:
 
--Customize autosplits to be done when you touch the end-of-level balloon or when the level transitions (may be buggy)
+-Customize autosplits to be done when you touch the end-of-level balloon or when the level transitions
 
 -Automatically resets timer on stage select
 
