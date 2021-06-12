@@ -18,3 +18,9 @@ Features:
 -Final mushroom split is frame perfect
 
 -Works with both Marisa and Alice
+
+
+Bugs:
+3-4 sometimes splits incorrectly
+4-2 sometimes splits incorrectly
+5-1 sometimes splits incorrectly
