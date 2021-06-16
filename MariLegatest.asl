@@ -28,11 +28,75 @@ split
     }
 
 
-    if(settings["balloon"])
+if(settings["balloon"])
     {
         if(
-            current.levelNumber >= 1
+            current.levelNumber < 3
             && current.subLevel >= 1
+            && old.balloonFlag + 53620344 == current.balloonFlag
+            && current.resetTimer > 5100
+            && current.deathFlag != 2052){
+            return true;
+        }
+
+        if(
+            current.levelNumber == 3 
+            && current.subLevel == 1 
+            && old.balloonFlag + 53620344 == current.balloonFlag
+            && current.resetTimer > 5100
+            && current.deathFlag != 2052){
+            return true;
+        }
+
+        if(
+            current.levelNumber == 3 
+            && current.subLevel == 2 
+            && old.balloonFlag + 53620344 == current.balloonFlag
+            && current.resetTimer > 5100
+            && current.deathFlag != 2052){
+            return true;
+        }
+
+        if(
+            current.levelNumber == 3 
+            && current.subLevel == 3 
+            && old.balloonFlag + 53620344 == current.balloonFlag
+            && current.resetTimer > 5100
+            && current.deathFlag != 2052){
+            return true;
+        }
+
+        if(
+            current.levelNumber == 4 
+            && current.subLevel == 1 
+            && old.balloonFlag + 53620344 == current.balloonFlag
+            && current.resetTimer > 5100
+            && current.deathFlag != 2052){
+            return true;
+        }
+
+        if(
+            current.levelNumber == 4 
+            && current.subLevel == 2 
+            && old.balloonFlag + 53620344 == current.balloonFlag
+            && current.resetTimer > 5100
+            && current.resetTimer < 7000
+            && current.deathFlag != 2052){
+            return true;
+        }
+
+        if(
+            current.levelNumber == 4 
+            && current.subLevel == 3 
+            && old.balloonFlag + 53620344 == current.balloonFlag
+            && current.resetTimer > 5100
+            && current.deathFlag != 2052){
+            return true;
+        }
+
+        if(
+            current.levelNumber == 4 
+            && current.subLevel == 4 
             && old.balloonFlag + 53620344 == current.balloonFlag
             && current.resetTimer > 5100
             && current.deathFlag != 2052){
@@ -43,6 +107,42 @@ split
             current.levelNumber == 5 
             && current.subLevel == 1 
             && current.balloonFlag + 53620344 == old.balloonFlag){
+            return true;
+        }
+
+        if(
+            current.levelNumber == 5 
+            && current.subLevel == 2 
+            && old.balloonFlag + 53620344 == current.balloonFlag
+            && current.resetTimer > 5100
+            && current.deathFlag != 2052){
+            return true;
+        }
+
+        if(
+            current.levelNumber == 5 
+            && current.subLevel == 3 
+            && old.balloonFlag + 53620344 == current.balloonFlag
+            && current.resetTimer > 5100
+            && current.deathFlag != 2052){
+            return true;
+        }
+
+        if(
+            current.levelNumber == 5 
+            && current.subLevel == 4 
+            && old.balloonFlag + 53620344 == current.balloonFlag
+            && current.resetTimer > 5100
+            && current.deathFlag != 2052){
+            return true;
+        }
+
+        if(
+            current.levelNumber > 5
+            && current.subLevel >= 1
+            && old.balloonFlag + 53620344 == current.balloonFlag
+            && current.resetTimer > 5100
+            && current.deathFlag != 2052){
             return true;
         }
 
