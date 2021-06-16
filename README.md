@@ -21,5 +21,4 @@ Features:
 
 
 Bugs:
-
-Most bugs have been ironed out, but let me know if it splits incorrectly on a certain level. It may still happen sometimes in castles.
+Should be none, but I have noticed some odd behavior from world 3. Let me know if you encounter any bugs.
