@@ -22,8 +22,4 @@ Features:
 
 Bugs:
 
-3-4 sometimes splits incorrectly
-
-4-2 sometimes splits incorrectly
-
-5-1 sometimes splits incorrectly
+Most bugs have been ironed out, but let me know if it splits incorrectly on a certain level. It may still happen sometimes in castles.
