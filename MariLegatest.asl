@@ -32,7 +32,7 @@ if(settings["balloon"])
     {
         if(
             current.levelNumber < 3
-            && current.subLevel >= 1
+            && current.subLevel <= 3
             && old.balloonFlag + 53620344 == current.balloonFlag
             && current.resetTimer > 5100
             && current.deathFlag != 2052){
@@ -139,7 +139,7 @@ if(settings["balloon"])
 
         if(
             current.levelNumber > 5
-            && current.subLevel >= 1
+            && current.subLevel <= 3
             && old.balloonFlag + 53620344 == current.balloonFlag
             && current.resetTimer > 5100
             && current.deathFlag != 2052){
