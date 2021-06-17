@@ -15,7 +15,8 @@ startup{
 
 start
 {
-    if(current.resetTimer == 832){
+    if(current.resetTimer == 832
+    && old.resetTimer == 2048){
         return true;
     } 
 }
