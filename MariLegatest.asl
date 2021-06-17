@@ -96,15 +96,6 @@ if(settings["balloon"])
         }
 
         if(
-            current.levelNumber == 4 
-            && current.subLevel == 4 
-            && old.balloonFlag + 53620344 == current.balloonFlag
-            && current.resetTimer > 5100
-            && current.deathFlag != 2052){
-            return true;
-        }
-
-        if(
             current.levelNumber == 5 
             && current.subLevel == 1 
             && current.balloonFlag + 53620344 == old.balloonFlag){
@@ -123,15 +114,6 @@ if(settings["balloon"])
         if(
             current.levelNumber == 5 
             && current.subLevel == 3 
-            && old.balloonFlag + 53620344 == current.balloonFlag
-            && current.resetTimer > 5100
-            && current.deathFlag != 2052){
-            return true;
-        }
-
-        if(
-            current.levelNumber == 5 
-            && current.subLevel == 4 
             && old.balloonFlag + 53620344 == current.balloonFlag
             && current.resetTimer > 5100
             && current.deathFlag != 2052){
