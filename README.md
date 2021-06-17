@@ -22,4 +22,4 @@ Features:
 
 Bugs:
 
-Should be none, but I have noticed some odd behavior from world 3.
+Should be none, but I have noticed some odd behavior from 4-2.
