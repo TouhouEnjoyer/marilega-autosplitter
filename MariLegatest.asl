@@ -80,7 +80,7 @@ if(settings["balloon"])
             current.levelNumber == 4 
             && current.subLevel == 2 
             && old.balloonFlag + 53620344 == current.balloonFlag
-            && current.resetTimer > 8000
+            && current.resetTimer > 5800
             && current.deathFlag != 2052){
             return true;
         }
