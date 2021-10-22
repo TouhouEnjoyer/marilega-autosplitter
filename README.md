@@ -4,7 +4,6 @@ My first attempt at an autosplitter. It's very simple, but MarisaLand Legacy isn
 
 Only works with v1.30, so heads up if you downloaded the game from Moriya Shrine. 
 
-Also functions with Hard Mode as well...but since I haven't gotten to its final screen I can't confirm the ending will split correctly. Please let me know or suggest changes if you're interested in this functionality.
 
 
 Features:
@@ -18,7 +17,11 @@ Features:
 
 
 
-Bugs/Issues (BALLOON SPLITS ONLY):
+Bugs/Issues:
+
+-On most stages, if using balloon splits, the timer going under 100 triggers a split. This is especially apparent in Hard Mode, so I'd recommend turning it off for that.
+
+-Getting 8 heads tall triggers a split. I can't find mushroom hex values for the life of me, so if anyone wants to give it a go, be my guest.
 
 -On rare occasions, 4-2 may split randomly in the middle of the stage. This is only a problem if you're running Warpless.
 
@@ -26,5 +29,7 @@ Bugs/Issues (BALLOON SPLITS ONLY):
 
 -1-1 and 5-1 are two other stages that are kinda finicky with their splits, but it's so rare I wouldn't consider them major issues yet.
 
+-Hard Mode's ending mushroom will most likely not split.
 
-Report any other weird occurences and I will look into it.
+
+Please create a pull request or message me if you figure out how to fix any of these issues.
