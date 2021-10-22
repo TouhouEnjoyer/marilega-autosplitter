@@ -18,6 +18,16 @@ start
     if(current.resetTimer == 832
     && old.resetTimer == 2048){
         return true;
+    }
+    
+    if(current.resetTimer == 832
+    && old.resetTimer == 2176){
+        return true;
+    } 
+    
+    if(current.resetTimer == 832
+    && old.resetTimer == 2304){
+        return true;
     } 
 }
 
@@ -128,10 +138,7 @@ if(settings["balloon"])
             return true;
         }
 
-        if(current.subLevel == 1 && old.subLevel == 2){
-            return true;
-        }
-        if(current.subLevel == 1 && old.subLevel == 4){
+		if(current.levelNumber > old.levelNumber){
             return true;
         }
     }
@@ -145,4 +152,17 @@ reset
     if(current.resetTimer == 2048 && old.resetTimer == 1664){
         return true;
     }
+	
+	if(current.resetTimer == 2176 && old.resetTimer == 1792){
+        return true;
+    }
+	
+	if(current.resetTimer == 2304 && old.resetTimer == 1792){
+        return true;
+    }
+	
+	if(current.resetTimer == 2304 && old.resetTimer == 1664){
+        return true;
+    }
+	
 }
